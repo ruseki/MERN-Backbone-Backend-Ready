@@ -31,7 +31,9 @@ https://www.mongodb.com
 
 Create or sign in > Create a New Project then name it > Select build a cluster and choose a free tier > Select your a cloud provider (select the faster / low carbon / no carbon > Name your cluster then create > Go to the database access tab > Set username/password and assign readWrite permissions > Go to the Network Access tab > Add your ip address or just use 0.0.0.0/0 to access it anywhere > Go again to Clusters > Connect > Choose "Connect your application" > select your driver (Node.js) and version, then copy your connection URI 
 
-Before deploying, make sure you have created an environment variable. 
+
+Before deploying, make sure you have created an environment variable inside the backend folder.
+Create a file > .env
 You will need to add the following environment variables to your .env file
 
 `MONGODB_URI` = add your MongoDB key here
