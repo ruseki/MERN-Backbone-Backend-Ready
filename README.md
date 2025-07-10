@@ -33,6 +33,7 @@ Create or sign in > Create a New Project then name it > Select build a cluster a
 
 
 Before deploying, make sure you have created an environment variable inside the backend folder.
+
 Create a file > .env
 You will need to add the following environment variables to your .env file
 
