@@ -41,7 +41,8 @@ You will need to add the following environment variables to your .env file
 
 `PORT` = any available port on your system, you can use 3000 as default
 
-Deploy the project
+
+**Deploy the project**
 
 ```bash
 npm run dev
